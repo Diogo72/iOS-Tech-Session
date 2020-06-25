@@ -10,6 +10,7 @@
 		4282E71E6889A76DFE60A1E6 /* Pods_Tech_Session_iOS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1F6AB35BE4E33126D10C288 /* Pods_Tech_Session_iOS_Test.framework */; };
 		668E94B024A49B45005E8B35 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E94AF24A49B45005E8B35 /* Network.swift */; };
 		668E94B224A4A6B9005E8B35 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E94B124A4A6B9005E8B35 /* Recipe.swift */; };
+		668E94B424A4B65A005E8B35 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668E94B324A4B65A005E8B35 /* RecipeCell.swift */; };
 		66E4463824A49474003D547E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E4463724A49474003D547E /* AppDelegate.swift */; };
 		66E4463A24A49474003D547E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E4463924A49474003D547E /* SceneDelegate.swift */; };
 		66E4463C24A49474003D547E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E4463B24A49474003D547E /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		668E94AF24A49B45005E8B35 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		668E94B124A4A6B9005E8B35 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		668E94B324A4B65A005E8B35 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		66E4463424A49474003D547E /* Tech Session iOS Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech Session iOS Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E4463724A49474003D547E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66E4463924A49474003D547E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				66E4464524A49479003D547E /* Info.plist */,
 				668E94AF24A49B45005E8B35 /* Network.swift */,
 				668E94B124A4A6B9005E8B35 /* Recipe.swift */,
+				668E94B324A4B65A005E8B35 /* RecipeCell.swift */,
 			);
 			path = "Tech Session iOS Test";
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				66E4463C24A49474003D547E /* ViewController.swift in Sources */,
 				66E4463824A49474003D547E /* AppDelegate.swift in Sources */,
 				668E94B024A49B45005E8B35 /* Network.swift in Sources */,
+				668E94B424A4B65A005E8B35 /* RecipeCell.swift in Sources */,
 				66E4463A24A49474003D547E /* SceneDelegate.swift in Sources */,
 				668E94B224A4A6B9005E8B35 /* Recipe.swift in Sources */,
 			);

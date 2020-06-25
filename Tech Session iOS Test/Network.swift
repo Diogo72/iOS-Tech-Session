@@ -8,13 +8,16 @@
 
 import Foundation
 import Alamofire
+import SwiftyJSON
 
 class Network {
   static let url = "http://www.recipepuppy.com/api/?i=onions,garlic&q=omelet"
 
-  static func getRecipes() {
+  static func getRecipes(completion: @escaping (JSON) -> Void) {
     AF.request(url).responseJSON { response in
-      print(response)
+      let result = try! response.result.get()
+
+      completion(JSON(result))
     }
   }
 }
